@@ -9,7 +9,7 @@ import postcss from 'rollup-plugin-postcss'
 export default {
    input: 'src/index.js',
    output: {
-      file: 'public/index.js',
+      file: 'public/bundle.js',
       format: 'iife',
    },
    plugins: [
