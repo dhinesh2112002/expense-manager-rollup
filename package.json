@@ -9,7 +9,7 @@
   "homepage": "./",
   "scripts": {
     "start": "rollup -c -w",
-    "build": "rollup",
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm run build && gh-pages -d public"
   },
@@ -32,7 +32,7 @@
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-replace": "^6.0.2",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^6.0.0",
     "postcss": "8.1",
     "postcss-modules": "^4.3.1",
     "rollup": "^4.45.0",
